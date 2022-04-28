@@ -14,6 +14,8 @@ while(len(dinner)!=5): #리스트 길이가 5가 되기 전까지 반복
             print("이미 있는 메뉴예요! 다른 메뉴를 입력해주세요.")
             dinner.remove(dinner[i])
             break
+        else:
+            pass
     dinner.append(a)
     print("현재 메뉴 수 = "+str(len(dinner))+"\n")
 
